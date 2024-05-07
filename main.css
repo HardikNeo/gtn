@@ -31,13 +31,21 @@ footer {
   margin: 1rem 0 1rem 0;
 }
 .guesses {
+  padding-top: 1rem;
   width: auto;
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 1rem;
+  margin-left: 5rem;
 }
 .guess {
   height: 10rem;
   width: 10rem;
   font-size: 5rem;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.guess:hover {
+  transform: translateY(-2px);
 }

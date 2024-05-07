@@ -4,6 +4,7 @@ function play(guess) {
   console.log(number);
   if (guess === number) {
     text.textContent = "You Won! Choose a Number to Play Again";
+    alert("You Won!");
   } else {
     text.textContent = "You Lost! Choose a Number to Play Again";
   }
